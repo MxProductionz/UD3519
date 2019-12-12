@@ -1,0 +1,164 @@
+<<!DOCTYPE HTML>
+<html>
+<head>
+<title>Peak Athletics</title>
+<meta charset="utf-8">
+<noscript>
+<link rel="stylesheet" href="css/5grid/core.css">
+<link rel="stylesheet" href="css/5grid/core-desktop.css">
+<link rel="stylesheet" href="css/5grid/core-1200px.css">
+<link rel="stylesheet" href="css/5grid/core-noscript.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style-desktop.css">
+</noscript>
+<script src="css/5grid/jquery.js"></script>
+<script src="css/5grid/init.js?use=mobile,desktop,1000px&amp;mobileUI=1&amp;mobileUI.theme=none"></script>
+<!--[if IE 9]><link rel="stylesheet" href="css/style-ie9.css"><![endif]-->
+</head>
+<body>
+<div id="header-wrapper">
+  <header id="header" class="5grid-layout">
+    <div class="row">
+      <div class="12u" id="logo">
+        <!-- Logo -->
+        <h1><a href="#" class="mobileUI-site-name">Peak Athletics</a></h1>
+        <p>Catered Shopping Experience </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="12u" id="menu">
+        <nav class="mobileUI-site-nav">
+          <ul>
+            <li class="first"><a href="Home.html">Home</a> </li>
+            <li><a href="GearBag.html">Gear Bag</a></li>
+            <li><a href="Shop.html">Shop</a></li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="#">Other Sport Info</a></li>
+
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+</div>
+<div id="page-wrapper">
+  <div class="5grid-layout">
+    <div id="page">
+      <div class="row">
+        <div class="12u">
+          <div class="row">
+            <div class="8u">
+              <section id="content">
+                <h2>Gear Bag</h2>
+                <p class="subtitle">What's in My Gear Bag?</p>
+                <p><a href="#"><img src="images/gearbagpic.jpeg" alt="Man with backpack facing away from camera to a lake"></a></p>
+                <p>Your Gear Bag is a quick and easy way to show what items you have for your sport! This is like a closet on the go for your personal shopping experience</p>
+              </section>
+            </div>
+            <div class="4u">
+              <section id="sidebar">
+                <div class="wrap">
+                    <main role="main">
+                        <article id="profile_section">
+                            <h2>Fill Out Your Profile</h2>
+                            <p>Creating a profile allows us to cater your shopping experience based on both the sport you are interested in as well as the equipment you already have for that sport.</p>
+                            <form aria-label="Profile Form" name="profile_form" id="profile_form" method="post" action="">
+                                <fieldset id="user_section">
+                                    <legend id="user">User Information</legend>
+                                    Tell us a little bit about yourself.<br><br>
+
+                                    <label for="first_name" id="first-label">First Name: *</label><br>
+                                    <input aria-labelledby="first-label" aria-describedby="first-error" aria-reqired="true" type="text" name="first_name" id="first_name"><br>
+
+                                    <label for="last_name" id="last-label">Last Name: *</label><br>
+                                    <input aria-labelledby="last-label" aria-describedby="last-error" aria-reqired="true" type="text" name="last_name" id="last_name"><br>
+
+                                    <label for="gender" id="gender-label">Gender:</label><br>
+                                    <select aria-labelledby="gender-label" name="gender" id="gender">
+                                        <option value="other">Other or prefer not to specify</option>
+                                        <option value="male">Male</option>
+                                        <option value="female">Female</option>
+                                    </select><br>
+
+                                    <label for="date-of-birth" id="dob-label">Date of Birth:</label><br>
+                                    <input aria-labelledby="dob-label" type="date" name="date-of-birth"><br>
+
+                                    <label for="skill-level" id="skill-label">What is your sport skill level?</label><br>
+                                    <select aria-labelledby="skill-label" name="skill-level" id="skill-level">
+                                        <option value="casual">Beginner/Casual</option>
+                                        <option value="amateur">Amateur</option>
+                                        <option value="pro">Professional</option>
+                                    </select>
+                                </fieldset>
+                                <br>
+
+                                <fieldset id="sport_section">
+                                    <legend>Sport Information</legend>
+                                    Tell us more about the sports you play.<br><br>
+
+                                    <fieldset aria-labelledby="sport-label" id="sport_type">
+                                        <legend id="sport-label">What sport(s) are you shopping for?</legend>
+
+                                        <input aria-labelledby="yoga-label" type="checkbox" name="yoga">
+                                        <label for="yoga" id="yoga-label">Yoga</label><br>
+
+                                        <input aria-labelledby="running-label" type="checkbox" name="running">
+                                        <label for="running" id="running-label">Running</label><br>
+
+                                        <input aria-labelledby="biking-label" type="checkbox" name="biking">
+                                        <label for="biking" id="biking-label">Biking</label><br>
+
+                                        <input aria-labelledby="skiing-label" type="checkbox" name="skiing">
+                                        <label for="skiing" id="skiing-label">Skiing</label>
+                                    </fieldset>
+                                    <br>
+
+                                    <fieldset aria-labelledby="yoga-equipment-label" id="yoga_equipment">
+                                        <legend id="yoga-equipment-label">What Yoga equipment do you already have enough of?</legend>
+
+                                        <input aria-labelledby="yoga-mat-label" type="checkbox" name="yoga_mat" id="yoga_mat" value="yoga-mat">
+                                        <label for="yoga_mat" id="yoga-mat-label"> Yoga Mat</label><br>
+
+                                        <input aria-labelledby="yoga-pants-label" type="checkbox" name="yoga_pants" id="yoga_pants" value="pants">
+                                        <label for="yoga_pants" id="yoga-pants-label"> Yoga Pants</label><br>
+
+                                        <input aria-labelledby="yoga-shorts-label" type="checkbox" name="yoga_shorts" id="yoga_shorts" value="shorts">
+                                        <label for="yoga_shorts" id="yoga-shorts-label"> Yoga Shorts</label><br>
+
+                                        <input aria-labelledby="yoga-shirts-label" type="checkbox" name="yoga_shirts" id="yoga_shirts" value="shirts">
+                                        <label for="yoga_shirts" id="yoga-shirts-label"> Shirts/Tank-Tops</label><br>
+
+                                        <input aria-labelledby="foam-roller-label" type="checkbox" name="foam_rollers" id="foam_rollers" value="rollers">
+                                        <label for="foam_rollers" id="foam-roller-label"> Foam Rollers/Supports</label><br>
+
+                                        <input aria-labelledby="gym-bags-label" type="checkbox" name="gym_bags" id="gym_bags" value="bags">
+                                        <label for="gym_bags" id="gym-bags-label"> Yoga Bags/Gym Bags</label>
+                                    </fieldset>
+                                    <br>
+                                    <input type="submit" value="Update Profile">
+                                </fieldset>
+                            </form>
+                        </article>
+                    </main>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer-wrapper">
+  <div id="footer-content" class="5grid-layout">
+  </div>
+</div>
+<div class="5grid-layout">
+  <div id="copyright">
+    <section>
+      <p>&copy; Peak Athletics | Design: <a target="_blank" href="http://html5templates.com/">Austin Layton</a></p>
+    </section>
+  </div>
+</div>
+</body>
+</html>
